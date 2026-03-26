@@ -14,7 +14,7 @@ load_dotenv()
 embedding_model: CohereProviderSpec = {
     "provider": "cohere",
     "config": {
-        "api_key": "FFeP6vnkyMqoezDi9aMfZST7AOxLL3E5jvVBb6WC",
+        "api_key": "API_KEY",
         "model_name": "embed-english-v3.0"
     }
 }
