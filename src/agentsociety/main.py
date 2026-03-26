@@ -32,8 +32,7 @@ def run():
     """
     Run the crew.
     """
-    # user_id, item_id = load_first_test_case("/home/zen/Documents/llm_course/agentsociety/knowledge/JSON Files/test_review_subset.json")
-    user_id, item_id = "LQUk3WFBgEfwIYkNDh5l1Q", "KueYmi7Vrr0Hyt0_iIux4Q"
+    user_id, item_id = load_first_test_case("/home/zen/Documents/llm_course/agentsociety/knowledge/JSON Files/test_review_subset.json") # Please change to the filepath in your system
     print(f"user_id: {user_id}, item_id: {item_id}")
     inputs = {
         'user_id': user_id,
